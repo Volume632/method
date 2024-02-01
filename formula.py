@@ -8,8 +8,8 @@ def newton_method(number, n, epsilon=1e-10, max_iter=1000):
     return x
 
 # Исходное число и степень
-number = 25
-root_degree = 2
+number = 64
+root_degree = 3
 
 # Используем метод Ньютона
 result = newton_method(number, root_degree)
